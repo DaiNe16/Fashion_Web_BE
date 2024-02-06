@@ -112,16 +112,17 @@ namespace Fashion.Services.ProductAPI.Controllers
 		}
 
 		[HttpGet("GetAll")]
-		public ResponseDto Get()
+		public ResponseDto Get(int offset = 0, int limit = 1000)
 		{
 			try
 			{
-				IEnumerable<ProductDto> listProductDto = _mapper.Map<IEnumerable<ProductDto>>(_db.Products.ToList());
+				IEnumerable<ProductDto> listProductDto = _mapper.Map<IEnumerable<ProductDto>>(_db.Products.Skip(offset).Take(limit).ToList());
 				List<ProductDto> listPro = new List<ProductDto>(listProductDto);
 				listPro.ForEach(p =>
 				{
 					p.ProductUrl = GetImagePathByProductId(p.ProductId);
 				});
+				
 				_response.Result = listPro;
 			}
 			catch (Exception ex)

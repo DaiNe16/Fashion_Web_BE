@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sYEBORIulYKYJr1wbzSAKn7mKTHj8UITBcb9+QPonA8=",
+  "Hash": "MDRqVFBS9MBlx1yIsRUKnqRQtLFY9tdA2Zj9XjInmu8=",
   "Source": "Fashion.Services.AuthAPI",
   "BasePath": "_content/Fashion.Services.AuthAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Fashion.Services.AuthAPI\\wwwroot",
       "Source": "Fashion.Services.AuthAPI",
-      "ContentRoot": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\",
       "BasePath": "_content/Fashion.Services.AuthAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\Uploads\\UserAvatar\\b494fa0e-ba91-4be5-b877-564bae67029b\\image.png",
+      "Identity": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\Uploads\\UserAvatar\\b494fa0e-ba91-4be5-b877-564bae67029b\\image.png",
       "SourceId": "Fashion.Services.AuthAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\",
       "BasePath": "_content/Fashion.Services.AuthAPI",
       "RelativePath": "Uploads/UserAvatar/b494fa0e-ba91-4be5-b877-564bae67029b/image.png",
       "AssetKind": "All",

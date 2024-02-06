@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj": {}
+    "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj": {}
   },
   "projects": {
-    "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj": {
+    "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj",
+        "projectUniqueName": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj",
         "projectName": "Fashion.Services.CouponAPI",
-        "projectPath": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj",
+        "projectPath": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.CouponAPI\\obj\\",
+        "outputPath": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.CouponAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

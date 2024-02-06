@@ -2832,11 +2832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.ProductAPI\\Fashion.Services.ProductAPI.csproj",
+      "projectUniqueName": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.ProductAPI\\Fashion.Services.ProductAPI.csproj",
       "projectName": "Fashion.Services.ProductAPI",
-      "projectPath": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.ProductAPI\\Fashion.Services.ProductAPI.csproj",
+      "projectPath": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.ProductAPI\\Fashion.Services.ProductAPI.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.ProductAPI\\obj\\",
+      "outputPath": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.ProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

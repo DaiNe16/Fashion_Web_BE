@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj": {}
+    "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj": {}
   },
   "projects": {
-    "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj": {
+    "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj",
+        "projectUniqueName": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj",
         "projectName": "Fashion.Services.AuthAPI",
-        "projectPath": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj",
+        "projectPath": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.AuthAPI\\obj\\",
+        "outputPath": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

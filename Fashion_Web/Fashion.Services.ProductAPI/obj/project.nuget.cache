@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TWG+bLqigRv94tdH0wyxHfkgLdpokpK+cMatzDBzBxxkCf00SvSLNGPScv+I/mih7tWpIHIrMZbWtO0GDP+MAw==",
+  "dgSpecHash": "EbziGAWubqLyD1JPjQ0syU20EPtP7bbxEPZppJyTJp5qOidsTVAV0dR81dbN/eiqPxjCqEm166AxLwbqll9ZQg==",
   "success": true,
-  "projectFilePath": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.ProductAPI\\Fashion.Services.ProductAPI.csproj",
+  "projectFilePath": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.ProductAPI\\Fashion.Services.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\13.0.0\\automapper.13.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

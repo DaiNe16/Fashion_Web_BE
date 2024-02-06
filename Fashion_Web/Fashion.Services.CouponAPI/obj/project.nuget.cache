@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tgw4PNlSuwWP3gAOD4en2GVqhxT02f5UVGwMYYJC3SI34OBu7Tg6v0wBnezAQIm3/mWj/5qVa4yYW+yqU1tHVA==",
+  "dgSpecHash": "TN2r957Q+XQ1dHLtJ4Jf/nt5GeHuRIpZlAV3nINVkUJEJCsELjLT80Hrfh4w5Er5+x5z3j0krlHMzVCxShVkDw==",
   "success": true,
-  "projectFilePath": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj",
+  "projectFilePath": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.CouponAPI\\Fashion.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\13.0.0\\automapper.13.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

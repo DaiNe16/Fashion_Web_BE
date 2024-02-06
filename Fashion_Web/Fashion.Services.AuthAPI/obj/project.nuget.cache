@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FbaNXCzz/bpI8BaGRvSQXdpfFifsVjzYlSWkckRwFBh2kV+R9K+8+5pdmeMl/oiVzLI938IEm2DijJD0grwEPw==",
+  "dgSpecHash": "XEC7ivAaE3GGHtPPx34XNMBw3TfKZYJpYiqCdzmmZUEclKqPfR6aMQzQuH/+27Aw9zEgct7S66B2mXJFAn+09Q==",
   "success": true,
-  "projectFilePath": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj",
+  "projectFilePath": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\Fashion.Services.AuthAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.26\\microsoft.aspnetcore.authentication.jwtbearer.6.0.26.nupkg.sha512",

@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.ProductAPI\\wwwroot\\Uploads\\Product\\4\\image.png",
+      "Id": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.ProductAPI\\wwwroot\\Uploads\\Product\\4\\image.png",
       "PackagePath": "staticwebassets\\Uploads\\Product\\4\\image.png"
+    },
+    {
+      "Id": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.ProductAPI\\wwwroot\\Uploads\\Product\\6\\image.png",
+      "PackagePath": "staticwebassets\\Uploads\\Product\\6\\image.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Fashion.Services.ProductAPI.Microsoft.AspNetCore.StaticWebAssets.props",
