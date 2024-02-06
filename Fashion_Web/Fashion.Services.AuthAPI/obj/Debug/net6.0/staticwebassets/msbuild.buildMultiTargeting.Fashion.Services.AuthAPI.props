@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Fashion.Services.AuthAPI.props" />
+</Project>

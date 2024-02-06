@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Pm9/AJlkK7638+lz1OddWvtyVc3CzUGFsE5xrwSAONY=",
+  "Source": "Fashion.Services.ProductAPI",
+  "BasePath": "_content/Fashion.Services.ProductAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Fashion.Services.ProductAPI\\wwwroot",
+      "Source": "Fashion.Services.ProductAPI",
+      "ContentRoot": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.ProductAPI\\wwwroot\\",
+      "BasePath": "_content/Fashion.Services.ProductAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.ProductAPI\\wwwroot\\Uploads\\Product\\4\\image.png",
+      "SourceId": "Fashion.Services.ProductAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Semester07\\C#_API\\Fashion_Web\\Fashion.Services.ProductAPI\\wwwroot\\",
+      "BasePath": "_content/Fashion.Services.ProductAPI",
+      "RelativePath": "Uploads/Product/4/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Product\\4\\image.png"
+    }
+  ]
+}
