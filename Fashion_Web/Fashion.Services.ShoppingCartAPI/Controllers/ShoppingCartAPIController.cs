@@ -93,7 +93,11 @@ namespace Fashion.Services.ShoppingCartAPI.Controllers
 						},
 						Quantity = cartDetail.Count,
 					}).ToList(),
-
+					// Other options...
+					Metadata = new Dictionary<string, string>
+					{
+						{ "userId", userId }
+					},
 					Mode = "payment",
 					SuccessUrl = "https://translate.google.com/?hl=vi&sl=en&tl=vi&text=success&op=translate",
 					CancelUrl = "https://translate.google.com/?hl=vi&sl=en&tl=vi&text=cance&op=translate",
@@ -111,9 +115,44 @@ namespace Fashion.Services.ShoppingCartAPI.Controllers
 			return _response;
 		}
 
+		[HttpGet("GetAllOrder")]
+		public async Task<ResponseDto> GetAllOrder(string userId)
+		{
+			// Handle the event
+			try
+			{
+				var orders = _db.Orders.Where(u => u.UserId == userId).ToList();
+				_response.Result = orders;
+			}
+			catch (Exception ex)
+			{
+				_response.Message = ex.Message.ToString();
+				_response.IsSuccess = false;
+			}
+			return _response;
+		}
+
+		[HttpGet("GetAllOrderDetailByOrderId")]
+		public async Task<ResponseDto> GetAllOrderDetailByOrderId(int orderId)
+		{
+			// Handle the event
+			try
+			{
+				var orderDetails = _db.OrderDetails.Where(u => u.OrderId == orderId).ToList();
+				_response.Result = orderDetails;
+			}
+			catch (Exception ex)
+			{
+				_response.Message = ex.Message.ToString();
+				_response.IsSuccess = false;
+			}
+			return _response;
+		}
+
 		[HttpGet("GetCart")]
 		public async Task<ResponseDto> GetCart(string userId)
 		{
+			// Handle the event
 			try
 			{
 				var cartHeader = _db.CartHeader.FirstOrDefault(u => u.UserId == userId);

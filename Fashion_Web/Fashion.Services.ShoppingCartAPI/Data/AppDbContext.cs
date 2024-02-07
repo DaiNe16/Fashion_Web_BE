@@ -10,6 +10,8 @@ namespace Fashion.Services.ShoppingCartAPI.Data
 		}
 		public DbSet<CartHeader> CartHeader { get; set; }
 		public DbSet<CartDetails> CartDetails { get; set; }
+		public DbSet<Order> Orders { get; set; }
+		public DbSet<OrderDetail> OrderDetails { get; set; }
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
