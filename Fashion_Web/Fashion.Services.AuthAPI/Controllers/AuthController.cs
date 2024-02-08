@@ -28,6 +28,22 @@ namespace Fashion.Services.AuthAPI.Controllers
 			_environment = environment;
 		}
 
+		//($"/api/auth/GetUserById/"+id);
+		[HttpGet("GetUserById/{id}")]
+		public async Task<IActionResult> Login(string id)
+		{
+			var user = _db.ApplicationUsers.FirstOrDefault(u => u.Id == id);	
+			if (user == null)
+			{
+				_response.IsSuccess = false;
+				_response.Message = "User id is not existed";
+				return BadRequest(_response);
+			}
+
+			_response.Result = user;
+			return Ok(_response);
+		}
+
 		[HttpPost("Login")]
 		public async Task<IActionResult> Login(LoginRequestDto loginRequestDto)
 		{

@@ -76,3 +76,5 @@ D:\Semester07\C#_API\Fashion_Web_BE\Fashion_Web\Fashion.Services.ShoppingCartAPI
 D:\Semester07\C#_API\Fashion_Web_BE\Fashion_Web\Fashion.Services.ShoppingCartAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Semester07\C#_API\Fashion_Web_BE\Fashion_Web\Fashion.Services.ShoppingCartAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Semester07\C#_API\Fashion_Web_BE\Fashion_Web\Fashion.Services.ShoppingCartAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Semester07\C#_API\Fashion_Web_BE\Fashion_Web\Fashion.Services.ShoppingCartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\Semester07\C#_API\Fashion_Web_BE\Fashion_Web\Fashion.Services.ShoppingCartAPI\bin\Debug\net6.0\System.Threading.Channels.dll

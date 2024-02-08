@@ -125,7 +125,7 @@ namespace Fashion.Services.AuthAPI.Service
 
 				if (result.Succeeded)
 				{
-					var userToReturn = _db.ApplicationUsers.FirstOrDefault(u => u.UserName == registrationRequestDto.Email);
+					var userToReturn = _db.ApplicationUsers.FirstOrDefault(u => u.UserName == registrationRequestDto.Name);
 					UserDto userDto = new()
 					{
 						Email = userToReturn.Email,

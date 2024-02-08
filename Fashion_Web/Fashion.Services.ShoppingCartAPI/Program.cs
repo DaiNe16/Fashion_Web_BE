@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Fashion.Services.ShoppingCartAPI.Utility;
 using Fashion.Services.ShoppingCartAPI.Models;
+using Fashion.Services.ShoppingCartAPI.RabbitMQSender;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,6 +42,8 @@ new Uri(builder.Configuration["ApiSettings:ServiceUrls:CouponAPI"])).AddHttpMess
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddSingleton<IRabbitMQCartMessageSender, RabbitMQCartMessageSender>();
 
 builder.Services.AddSwaggerGen(option =>
 {
