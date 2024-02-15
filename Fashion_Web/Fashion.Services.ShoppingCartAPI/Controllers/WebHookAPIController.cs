@@ -50,7 +50,7 @@ namespace Fashion.Services.ShoppingCartAPI.Controllers
 
 					if (session != null && session.Metadata.TryGetValue("userId", out var userId))
 					{
-						message += userId + "@123@s";
+						message += userId + "@123@";
 						// Success
 						var cartHeader = _db.CartHeader.FirstOrDefault(u => u.UserId == userId);
 						var cartDetails = _mapper.Map<IEnumerable<CartDetailsDto>>(_db.CartDetails.Where(u => u.CartHeaderId == cartHeader.CartHeaderId));

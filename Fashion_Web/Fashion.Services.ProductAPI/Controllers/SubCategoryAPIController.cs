@@ -25,6 +25,22 @@ namespace Fashion.Services.ProductAPI.Controllers
 
 		}
 
+		[HttpGet("GetAllSubCategoryByCategoryId/{categoryId}")]
+		public ResponseDto GetAllSubCategoryByCategoryId(int categoryId)
+		{
+			try
+			{
+				var SubCategories = _mapper.Map<IEnumerable<SubCategoryDto>>(_db.SubCategories.Where(s => s.CategoryId == categoryId).ToList());
+				_response.Result = SubCategories;
+			}
+			catch (Exception ex)
+			{
+				_response.IsSuccess = false;
+				_response.Message = ex.Message;
+			}
+			return _response;
+		}
+
 		[HttpGet("GetAll")]
 		public ResponseDto Get()
 		{

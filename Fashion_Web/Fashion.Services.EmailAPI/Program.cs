@@ -20,6 +20,13 @@ new Uri(builder.Configuration["ApiSettings:ServiceUrls:AuthAPI"]));
 
 builder.Services.AddHostedService<RabbitMQConsumer>();
 var app = builder.Build();
+// Configure CORS
+app.UseCors(policy =>
+{
+	policy.WithOrigins("*") // Allowed origins
+		  .AllowAnyHeader()                  // Allow any header
+		  .AllowAnyMethod();                 // Allow any HTTP method
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

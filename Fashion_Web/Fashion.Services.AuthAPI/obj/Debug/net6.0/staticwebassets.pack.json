@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\Uploads\\UserAvatar\\b1735f56-85c2-4b30-b26b-b37b629791fd\\image.png",
+      "PackagePath": "staticwebassets\\Uploads\\UserAvatar\\b1735f56-85c2-4b30-b26b-b37b629791fd\\image.png"
+    },
+    {
       "Id": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\Uploads\\UserAvatar\\b494fa0e-ba91-4be5-b877-564bae67029b\\image.png",
       "PackagePath": "staticwebassets\\Uploads\\UserAvatar\\b494fa0e-ba91-4be5-b877-564bae67029b\\image.png"
     },

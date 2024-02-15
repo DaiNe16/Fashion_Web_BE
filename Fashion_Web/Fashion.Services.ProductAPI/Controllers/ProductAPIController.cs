@@ -133,6 +133,28 @@ namespace Fashion.Services.ProductAPI.Controllers
 			return _response;
 		}
 
+		[HttpGet("GetAllProductBySubCategoryId/{subCategoryId}")]
+		public ResponseDto GetAllProductBySubCategoryId(int subCategoryId)
+		{
+			try
+			{
+				IEnumerable<ProductDto> listProductDto = _mapper.Map<IEnumerable<ProductDto>>(_db.Products.Where(p => p.SubCategoryId == subCategoryId).ToList());
+				List<ProductDto> listPro = new List<ProductDto>(listProductDto);
+				listPro.ForEach(p =>
+				{
+					p.ProductUrl = GetImagePathByProductId(p.ProductId);
+				});
+
+				_response.Result = listPro;
+			}
+			catch (Exception ex)
+			{
+				_response.IsSuccess = false;
+				_response.Message = ex.Message;
+			}
+			return _response;
+		}
+
 		[HttpGet("GetProductById/{id}")]
 		[Authorize]
 		public ResponseDto Get(int id)

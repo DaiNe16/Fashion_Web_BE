@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fashion.Services.ShoppingCa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fashion.Services.EmailAPI", "Fashion.Services.EmailAPI\Fashion.Services.EmailAPI.csproj", "{225051E7-7448-43A8-B46E-D8A0FC7308F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fashion.Services.ChatAPI", "Fashion.Services.ChatAPI\Fashion.Services.ChatAPI.csproj", "{47D83EC1-71FC-4AAF-8E05-FACD95486B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fashion.Services.ChatAPI", "Fashion.Services.ChatAPI\Fashion.Services.ChatAPI.csproj", "{47D83EC1-71FC-4AAF-8E05-FACD95486B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fashion.GatewaySolution", "Fashion.GatewaySolution\Fashion.GatewaySolution.csproj", "{500773EF-099A-4F46-A5DF-F08EBD669AEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{47D83EC1-71FC-4AAF-8E05-FACD95486B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47D83EC1-71FC-4AAF-8E05-FACD95486B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47D83EC1-71FC-4AAF-8E05-FACD95486B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500773EF-099A-4F46-A5DF-F08EBD669AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500773EF-099A-4F46-A5DF-F08EBD669AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500773EF-099A-4F46-A5DF-F08EBD669AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500773EF-099A-4F46-A5DF-F08EBD669AEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
