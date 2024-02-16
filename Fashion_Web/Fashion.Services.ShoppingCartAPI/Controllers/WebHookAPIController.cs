@@ -87,7 +87,7 @@ namespace Fashion.Services.ShoppingCartAPI.Controllers
 						_db.Add(order);
 						_db.SaveChanges();
 
-						var orderCreated = _db.Orders.FirstOrDefault(o => o.UserId == userId);
+						var orderCreated = _db.Orders.Where(o => o.UserId == userId).OrderBy(o => -o.OrderId).FirstOrDefault();
 						foreach (var cartDetail in cartDetails)
 						{
 							OrderDetail orderDetail = new OrderDetail

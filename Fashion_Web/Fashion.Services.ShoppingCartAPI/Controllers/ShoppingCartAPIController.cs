@@ -132,6 +132,25 @@ namespace Fashion.Services.ShoppingCartAPI.Controllers
 			return _response;
 		}
 
+		[HttpPut("UpdateQuantityOfCartDetail")]
+		public async Task<ResponseDto> UpdateQuantityOfCartDetail(int cartDetailId, int quantity)
+		{
+			// Handle the event
+			try
+			{
+				var cartDetail = _db.CartDetails.FirstOrDefault(o => o.CartDetailId == cartDetailId);
+				cartDetail.Count = quantity;
+				_db.Update(cartDetail);
+				_db.SaveChanges();
+			}
+			catch (Exception ex)
+			{
+				_response.Message = ex.Message.ToString();
+				_response.IsSuccess = false;
+			}
+			return _response;
+		}
+
 		[HttpGet("GetAllOrderDetailByOrderId")]
 		public async Task<ResponseDto> GetAllOrderDetailByOrderId(int orderId)
 		{
