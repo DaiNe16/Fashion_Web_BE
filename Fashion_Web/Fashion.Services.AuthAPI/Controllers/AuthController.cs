@@ -18,14 +18,45 @@ namespace Fashion.Services.AuthAPI.Controllers
 		private ResponseDto _response;
 		private readonly AppDbContext _db;
 		private readonly UserManager<ApplicationUser> _userManager;
+		private readonly RoleManager<IdentityRole> _roleManager;
 		private IWebHostEnvironment _environment;
-		public AuthController(IAuthService authService, AppDbContext appDbContext, UserManager<ApplicationUser> userManager, IWebHostEnvironment environment)
+		public AuthController(IAuthService authService, AppDbContext appDbContext, UserManager<ApplicationUser> userManager, IWebHostEnvironment environment, RoleManager<IdentityRole> roleManager)
 		{
 			_authService = authService;
 			_response = new ResponseDto();
 			_db = appDbContext;
 			_userManager = userManager;
 			_environment = environment;
+			_roleManager = roleManager;
+		}
+
+		[HttpGet("GetAllUser")]
+		public async Task<ActionResult<IEnumerable<ApplicationUser>>> GetAllUsers()
+		{
+			try
+			{
+				var users = await _userManager.Users.ToListAsync();
+				List<UserDto> listUserDto = new List<UserDto>();
+				foreach (var user in users)
+				{
+					var roles = await _userManager.GetRolesAsync(user);
+					UserDto userDto = new UserDto();
+					userDto.ID = user.Id;
+					userDto.Name = user.Name;
+					userDto.Email = user.Name;
+					userDto.PhoneNumber = user.PhoneNumber;
+					userDto.AvatarUrl = user.AvatarUrl;
+					userDto.Roles = roles;
+					listUserDto.Add(userDto);
+				}
+				_response.Result = listUserDto;
+			}
+			catch (Exception ex)
+			{
+				_response.IsSuccess = false;
+				_response.Message = ex.Message;
+			}
+			return Ok(_response);
 		}
 
 		//($"/api/auth/GetUserById/"+id);

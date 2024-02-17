@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.ProductAPI\\wwwroot\\Uploads\\Product\\15\\image.png",
+      "PackagePath": "staticwebassets\\Uploads\\Product\\15\\image.png"
+    },
+    {
       "Id": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.ProductAPI\\wwwroot\\Uploads\\Product\\4\\image.png",
       "PackagePath": "staticwebassets\\Uploads\\Product\\4\\image.png"
     },

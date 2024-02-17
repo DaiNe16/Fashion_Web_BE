@@ -23,8 +23,10 @@ namespace Fashion.Services.ChatAPI.Hubs
 			string UserIdFrom = Context.GetHttpContext().Request.Query["userId"];
 			if (userConnections.ContainsKey(user))
 			{
-				string connectionId = userConnections[user];
-				await Clients.Client(connectionId).SendAsync("ReceiveMessage", UserIdFrom, message);
+				string connectionId1 = userConnections[user];
+				string connectionId2 = userConnections[UserIdFrom];
+				await Clients.Client(connectionId1).SendAsync("ReceiveMessage", UserIdFrom, message);
+				await Clients.Client(connectionId2).SendAsync("ReceiveMessage", UserIdFrom, message);
 			}
 			//Log to DB
 			var chat = _db.Chats.Where(u => ((u.UserId1 == user && u.UserId2 == UserIdFrom) || (u.UserId1 == UserIdFrom && u.UserId2 == user))).FirstOrDefault();

@@ -2,6 +2,18 @@
   "Routes": [
     //"AuthAPI": https://localhost:7001,
     {
+      "DownstreamPathTemplate": "/api/auth/GetAllUser",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7001
+        }
+      ],
+      "UpstreamPathTemplate": "/api/auth/GetAllUser",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
       "DownstreamPathTemplate": "/api/auth/GetUserById/{id}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
@@ -138,7 +150,7 @@
 
     //Product
     {
-      "DownstreamPathTemplate": "/api/product/UploadProductImage",
+      "DownstreamPathTemplate": "/api/product/UploadProductImage/{productId}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -146,7 +158,7 @@
           "Port": 7003
         }
       ],
-      "UpstreamPathTemplate": "/api/product/UploadProductImage",
+      "UpstreamPathTemplate": "/api/product/UploadProductImage/{productId}",
       "UpstreamHttpMethod": [ "Post" ]
     },
     {

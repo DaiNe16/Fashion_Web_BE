@@ -1,5 +1,21 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\UserAvatar\0193517e-bcf8-4a2e-a72c-15063047450a\image.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Fashion.Services.AuthAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Fashion.Services.AuthAPI</BasePath>
+      <RelativePath>Uploads/UserAvatar/0193517e-bcf8-4a2e-a72c-15063047450a/image.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\UserAvatar\0193517e-bcf8-4a2e-a72c-15063047450a\image.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\UserAvatar\b1735f56-85c2-4b30-b26b-b37b629791fd\image.png))">
       <SourceType>Package</SourceType>
       <SourceId>Fashion.Services.AuthAPI</SourceId>

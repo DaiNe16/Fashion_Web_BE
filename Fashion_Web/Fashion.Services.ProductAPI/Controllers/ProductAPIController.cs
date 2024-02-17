@@ -25,7 +25,7 @@ namespace Fashion.Services.ProductAPI.Controllers
 			_environment = environment;
 		}
 
-		[HttpPost("UploadProductImage")]
+		[HttpPost("UploadProductImage/{productId}")]
 		[Authorize(Roles = "admin")]
 		public async Task<ResponseDto> UploadProductImage(int productId, IFormFile source)
 		{
@@ -108,6 +108,10 @@ namespace Fashion.Services.ProductAPI.Controllers
 			{
 				imageUrl = hostPath + "/Uploads/Product/" + productId + "/image.png";
 			}
+			else
+			{
+				return "kotimduoc";
+			}
 			return imageUrl;
 		}
 
@@ -120,7 +124,11 @@ namespace Fashion.Services.ProductAPI.Controllers
 				List<ProductDto> listPro = new List<ProductDto>(listProductDto);
 				listPro.ForEach(p =>
 				{
-					p.ProductUrl = GetImagePathByProductId(p.ProductId);
+					string proUrl = GetImagePathByProductId(p.ProductId);
+					if(proUrl != "kotimduoc")
+					{
+						p.ProductUrl = proUrl;
+					}
 				});
 				
 				_response.Result = listPro;
@@ -189,6 +197,7 @@ namespace Fashion.Services.ProductAPI.Controllers
 				product.ProductId = 0;
 				_db.Add(product);
 				_db.SaveChanges();
+				_response.Result = product;
 				_response.Message = "Successfully to create product";
 			}
 			catch (Exception ex)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CvcjBVGdhlqDUkQXMkwp1tyshvmwZUrEhlo7G+Q+ff8=",
+  "Hash": "6T7JEqgQ6YfCWZ6gPMfe8RtMzLJRSKICo7sblL/j6lc=",
   "Source": "Fashion.Services.AuthAPI",
   "BasePath": "_content/Fashion.Services.AuthAPI",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\Uploads\\UserAvatar\\0193517e-bcf8-4a2e-a72c-15063047450a\\image.png",
+      "SourceId": "Fashion.Services.AuthAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\",
+      "BasePath": "_content/Fashion.Services.AuthAPI",
+      "RelativePath": "Uploads/UserAvatar/0193517e-bcf8-4a2e-a72c-15063047450a/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\UserAvatar\\0193517e-bcf8-4a2e-a72c-15063047450a\\image.png"
+    },
     {
       "Identity": "D:\\Semester07\\C#_API\\Fashion_Web_BE\\Fashion_Web\\Fashion.Services.AuthAPI\\wwwroot\\Uploads\\UserAvatar\\b1735f56-85c2-4b30-b26b-b37b629791fd\\image.png",
       "SourceId": "Fashion.Services.AuthAPI",
